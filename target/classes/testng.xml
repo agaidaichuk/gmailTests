@@ -1,0 +1,14 @@
+<suite name="GoogleTestSuite">
+    <parameter name="user"  value="gaydaychuk.artem"/> //TODO: replace placeholder with correct login id
+    <parameter name="password"  value="art!989art"/>//TODO: replace placeholder with correct password
+    <test name="Gmail">
+        <classes>
+            <class name="GmailTest" />
+        </classes>
+    </test>
+    <test name="Drive">
+        <classes>
+            <class name="DriveTest" />
+        </classes>
+    </test>
+</suite>

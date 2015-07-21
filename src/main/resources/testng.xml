@@ -1,0 +1,14 @@
+<suite name="GoogleTestSuite">
+    <parameter name="user"  value="${replaceMe_in_testng.xml}"/> //TODO: replace placeholder with correct login id
+    <parameter name="password"  value="${replaceMeAlso}"/>//TODO: replace placeholder with correct password
+    <test name="Gmail">
+        <classes>
+            <class name="GmailTest" />
+        </classes>
+    </test>
+    <test name="Drive">
+        <classes>
+            <class name="DriveTest" />
+        </classes>
+    </test>
+</suite>
